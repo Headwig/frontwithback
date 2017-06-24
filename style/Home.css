@@ -1,0 +1,154 @@
+html,body{
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden;
+}
+#navlist{
+    list-style-type: none;
+    margin: 0vh -1vw;
+    padding: 0;
+    background-color: rgb(255, 127, 80);
+    border-bottom: 3px;
+    border-bottom-color: black;
+}
+#navitem{
+    display: inline-table;
+    padding: 2vh 1.5vw;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+#navitem:hover {
+    background-color: #555;
+    color: white;
+}
+#contact_count{
+    margin-top: auto;
+    background-color: rgb(255, 127, 80);
+    height: 100vh;
+    width: 27vw;
+    margin-left: -1vw;
+    float: left;
+}
+#count_list{
+    background: blue;
+    height: 100vh;
+    width: 27vw;
+    position: relative;
+    margin-left: -27vw;
+    float: left;
+    z-index: 2;
+}
+#new_chat_bar{
+    float: left;
+    margin-left: 0vw;
+    margin-top: 0vh;
+    width: 100%;
+    height: 7vh;
+    background-color: rgb(239, 101, 50);
+}
+#contact_back_bar{
+    float: left;
+    margin-left: 0vw;
+    margin-top: 0vh;
+    width: 100%;
+    height: 7vh;
+    background-color: rgb(33, 221, 168);
+}
+#clist{
+    margin-left: 0vw;
+}
+.countries_l{
+    width: 100%;
+    display: block;
+    //height: 5vh;
+}
+#msgbox{
+    margin-left: 26vw;
+    height: 80vh;
+    width: 80vw;
+    background-color: lightgrey;
+    float: inherit;
+    //overflow-y: scroll; 
+}
+
+#selected{
+    width: 80vw;
+    height: 6vh;
+    position: absolute;
+    background-color: rgb(33, 221, 168);
+    display: none;
+    font-family: sans-serif;
+    padding-left: 5vw;
+    padding-top: 1vh;
+    font-weight: bold;
+    font-size: 120%;
+}
+#user_inf{
+    float: left;
+    margin-top: 30vh;
+    margin-left: 25vw;
+    font-family: sans-serif;
+}
+#textarea{
+    float: inherit;
+    background-color: silver;
+    margin-left: 26vw;
+    width: 80vw;
+    height: 20vh;
+}
+textarea[name=message]{
+    float: inherit;
+    background-color: papayawhip;
+    height: 7.5vh;
+    margin-top: 1.5vh;
+    margin-left: 2vh;
+    width: 58vw;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: silver;
+    padding: 0.5vw 0.5vh;
+    font-family: tahoma;
+    font-size: 1vw;
+    resize: none;
+}
+textarea[name=message]:focus{
+    border-width: 3px;
+    border-color: rgb(255, 127, 80);
+}
+input[name=veb]{
+    margin-left: 60.5vw;
+    margin-top: -9.8vh;
+    float: left;
+}
+#chktxt{
+    float: left;
+    margin-left: 61.8vw;
+    margin-top: -10.3vh;
+    font-family: sans-serif;
+    font-size: 1.1vw;
+    font-weight: bold;
+}
+#sndmsg{
+    width: 11.8vw;
+    height: 6vh;
+    background-color: lawngreen;
+    float: left;
+    margin-left: 60.5vw;
+    margin-top: -6.5vh;
+    border: 2px solid;
+    border-color: forestgreen;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: darkslategray;
+}
+#sndmsg:hover{
+    background-color: deepskyblue;
+    color: black;
+    border-color: steelblue;
+}
