@@ -76,7 +76,7 @@
                 ?>
             </div>
             <?php
-                $rec = $_GET['data'];
+                $rec = $_POST['receive'];
                 //echo $rec;
                 $query="SELECT *  FROM chit where sender='".$myusername."' and receiver='".$rec."' ORDER BY id";
                 $run=mysqli_query($con1,$query);

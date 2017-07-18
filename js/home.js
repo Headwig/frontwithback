@@ -16,7 +16,7 @@ function setUser(obj){
     alert(receiver);
     $.ajax({
         type: 'POST',
-        data : {data:receiver},
+        data : {receive:receiver},
         url: 'home.php',
         success: function(data){
             alert("Data sent");
